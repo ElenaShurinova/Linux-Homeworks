@@ -1,0 +1,57 @@
+   0 ls -l
+   1 ls -l /bin
+   2 ls -l
+   3 chmod u+x bench.py
+   4 ls -l
+   5 chmod g+wx bench.py
+   6 ls -l
+   7 chmod o+wx bench.py
+   8 ls-l
+   9 ls -l
+  10 chmod ugo+x hello.c
+  11 ls -l
+  12 chmod a-rwx bench.py
+  13 ls -l
+  14 cat bench.py
+  15 clear
+  16 ls -l
+  17 chmod u+x,g+w,o-r readme.txt
+  18 ls -l
+  19 chmod 0 hello.c
+  20 ls -l
+  21 chmod 7 hello.c
+  22 ls -l
+  23 chmod 77 hello.c
+  24 ls -l
+  25 chmod 744 hello.c
+  26 ls -l
+  27 chmod 777 hello.c
+  28 ls -l
+  29 chmod 654 hello.c
+  30 ls -l
+  31 history
+  32 vi /tmp/file.txt
+  33 clear
+  34 vi /tmp/file.txt
+  35 ls -la /tmp
+  36  /tmp/file1.txt
+  37 ls -la /tmp
+  38 df -h
+  39 df -h | head -3
+  40 df -h | head -3 >> /tmp/file.txt
+  41 cat
+  42 cat /tmp/file.txt
+  43 chmod g+w /tmp/file.txt
+  44 ls -la
+  45 ls -la /tmp/
+  46 chmod u-r /tmp
+  47 chmod u-r /tmp/
+  48 chmod u+r /tmp/
+  49 chmod u+r /tmp
+  50 chmod u-r /tmp/file.txt
+  51 ls -la /tmp/
+  52 cat /tmp/file.txt
+  53 chmod o+x /tmp/file.txt
+  54 ls -la /tmp/
+  55 history
+  56 history >> history.txt
