@@ -1,0 +1,12 @@
+#!/bin/bash
+set -e
+        for i in {1..10}   for
+        do
+        echo $(date '+%T') $(ps -ef | grep -v TIME | wc -l)
+        sleep 0.5
+        done
+cat /proc/cpuinfo > task.txt
+cat /etc/os-release >> task.txt
+cat /etc/os-release | grep ^NAME >> task.txt
+cat /etc/os-release | grep ^NAME | awk -F'=' '{print$2}' >> task.txt
+touch {50..100}.txt
