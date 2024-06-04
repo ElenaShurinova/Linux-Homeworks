@@ -1,0 +1,28 @@
+│   ├── cats
+│   │   └── garfield
+│   ├── dogs
+│   │   └── pluto
+│   └── fish
+│       └── nemo
+└── humans
+    ├── adam
+    └── eve
+ 
+5 directories, 5 files
+localhost:~# history
+   0 cd /home/animals
+   1 mkdir /home/animals
+   2 mkdir /home/animals/dogs /home/animals/cats /home/animals/fish
+   3 touch /home/animals/dogs/pluto
+   4 touch /home/animals/cats/garfield
+   5 touch /home/animals/fish/nemo
+   6 touch /tmp/adam
+   7 mkdir /home/humans
+   8 cp /tmp/adam /home/humans
+   9 touch /tmp/evA
+  10 mv /tmp/evA /otp/eve
+  11 mv /tmp/evA /opt/eve
+  12 mv /opt/eve /home/humans/
+  13 tree /home
+  14 history
+localhost:~# history >> history.txt
