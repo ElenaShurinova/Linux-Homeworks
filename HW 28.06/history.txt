@@ -1,0 +1,23 @@
+   0 nano
+   1 li - al
+   2 li -al
+   3 ls -al
+   4 vi
+   5 vi dyrtuytiuy.txt
+   6 ls -al
+   7 vi /tmp/file.txt
+   8 df -h | head -3 >> /tmp/file.txt
+   9 cat /tmp/file.txt 
+  10 ls -al /tmp
+  11 chmod g+w /tmp/file.txt
+  12 ls -la
+  13 pwd
+  14 cd /tmp
+  15 ls -la
+  16 chmod u-r file.txt
+  17 ls -la
+  18 chmod o+x file.txt
+  19 ls -la
+  20 cat file.txt
+  21 cd
+  22 history > history.txt
